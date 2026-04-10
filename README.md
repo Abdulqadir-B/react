@@ -16,6 +16,14 @@ A React project exploring basic component structure and setup with Vite as the b
 
 A project exploring component composition and styling with Tailwind CSS. Contains a Card component that demonstrates handling props and CSS utility-based styling.
 
+### bg-changer
+
+A background color changer application demonstrating dynamic inline styling and state-driven UI updates. Clicking color buttons instantly transitions the full-screen background, showcasing practical use of useState with Tailwind CSS utilities.
+
+### password-generator
+
+A password generator application covering more advanced React concepts. Users can adjust password length via a range slider and toggle inclusion of numbers and special characters. Demonstrates useState, useCallback for memoized functions, useEffect for reactive generation, and useRef for clipboard interactions.
+
 ## Tech Stack
 
 - React for UI components and state management
@@ -33,6 +41,9 @@ The projects in this repository focus on:
 - Modern tooling with Vite
 - CSS techniques and styling approaches
 - Code quality through linting
+- Memoization with useCallback
+- Side effects and reactive updates with useEffect
+- DOM references and clipboard access with useRef
 
 ## Getting Started
 
